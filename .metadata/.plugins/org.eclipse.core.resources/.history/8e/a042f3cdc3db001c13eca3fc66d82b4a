@@ -1,0 +1,18 @@
+package com.kodnest.java.string.replacearray;
+
+public class news {
+
+	public static void main(String[] args) {
+		public class news
+		{
+		public static void main(String args[])
+		{
+		char ch = 'A';
+		int a = ch + 2;
+		ch = (char)a;
+		System.out.println(ch);
+		}
+		}
+	}
+
+}

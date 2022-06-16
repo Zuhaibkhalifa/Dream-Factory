@@ -1,0 +1,29 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.TreeSet;
+import java.util.*;
+
+public class news {
+
+
+	public static void main (String[] args)
+	{
+	try
+	{
+	int a = 0;
+	System.out.println ("a = " + a);
+	int b = 20 / a;
+	System.out.println ("b = " + b);
+	}
+
+	catch(ArithmeticException e)
+	{
+	System.out.println ("ArithmeticException");
+	}
+
+	finally
+	{
+	System.out.println ("finally block");
+	}
+	}
+	}

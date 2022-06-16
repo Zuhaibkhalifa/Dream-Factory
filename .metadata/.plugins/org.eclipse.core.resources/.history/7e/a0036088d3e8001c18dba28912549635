@@ -1,0 +1,30 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.TreeSet;
+import java.util.*;
+
+public class news {
+
+
+
+	        public static void main(String args[]) 
+
+	        {
+
+	            int array[] = new int [5];
+
+	            for (int i = 5; i > 0; i–-) {
+
+	                array[5-i] = i;
+
+	            Arrays.fill(array, 1, 4, 8);
+
+	            for (int j = 0; j < 5 ; j++) {
+
+	                System.out.print(array[i]);
+
+	        }
+	            }
+	        }
+}
+	    

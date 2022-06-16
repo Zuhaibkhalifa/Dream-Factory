@@ -1,0 +1,16 @@
+package com.kodnest.java.string.replacearray;
+
+public class news {
+
+	public static void main(String[] args) {
+		class Assessment
+		{
+		public static void main(String args[])
+		{
+		float a = 8.2f/2;
+		System.out.println(a);
+		}
+		}
+	}
+
+}

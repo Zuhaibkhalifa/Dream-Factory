@@ -1,0 +1,21 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.TreeSet;
+import java.util.*;
+
+public class news {
+
+		public static void main(String [] args)
+		{
+		PriorityQueue l = new PriorityQueue();
+		l.add(1);
+		l.add(2);
+		l.add(3);
+		l.add(4);
+		Iterator value = l.iterator();
+		while(value.hasNext())
+		{
+		System.out.print(value.next());
+		}
+		}
+		}

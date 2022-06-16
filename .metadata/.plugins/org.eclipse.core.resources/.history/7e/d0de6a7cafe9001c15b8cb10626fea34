@@ -1,0 +1,15 @@
+package kodenst;
+
+public class Main {
+	
+	public static void main(String[] args)
+	{
+	float arr[] = {11.22F,22.33F,33.44F,44.55F};
+	int index=0;
+	boolean data = false;
+	float key = 33.44F;
+	while(index<=3){if(key==arr[index]) {index++;data=true;break;}
+	System.out.println(data);
+	}
+	}
+}

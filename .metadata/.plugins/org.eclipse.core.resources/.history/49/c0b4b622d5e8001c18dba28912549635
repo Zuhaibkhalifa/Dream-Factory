@@ -1,0 +1,14 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.TreeSet;
+import java.util.*;
+
+public class news {
+	
+	public static void main(String args[])
+	{
+	String s1="hello how are you";
+	String r=s1.replace('h','t');
+	System.out.println(r);
+	}
+	}

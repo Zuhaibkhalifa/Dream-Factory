@@ -1,0 +1,17 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.TreeSet;
+import java.util.*;
+
+public class news {
+		public static void main(String[] args) {
+		int a[] = {1,2,3,4,5};
+		int b[] = a;
+		int total = 1;
+		for(int j=0;j<3;j++)
+		{
+		total+= (a[j] * b[j+1]);
+		}
+		System.out.println(total);
+		}
+		}

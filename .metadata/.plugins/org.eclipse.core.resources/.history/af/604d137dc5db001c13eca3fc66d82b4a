@@ -1,0 +1,12 @@
+package com.kodnest.java.string.replacearray;
+
+public class news {
+	
+	public static void main(String args[])
+	{
+	String obj = "hello";
+	String obj1 = "hai";
+	String obj2 = "bye";
+	System.out.println(obj.equals(obj1) + "" + obj.equals(obj2));
+	}
+	}

@@ -1,0 +1,13 @@
+package com.kodnest.java.string.replacearray;
+
+public class news {
+	
+	public static void main(String args[])
+	{
+	String obj = "Hello";
+	String obj1 = "KodNest";
+	String obj2 = obj;
+	obj2 = "world";
+	System.out.println(obj +" " + obj2);
+	}
+	}

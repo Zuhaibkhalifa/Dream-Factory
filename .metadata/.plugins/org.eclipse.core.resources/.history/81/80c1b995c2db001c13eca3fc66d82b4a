@@ -1,0 +1,18 @@
+package com.kodnest.java.string.replacearray;
+
+ class findGCD {
+	 int findG(int n,int m) {
+		int rem;
+		while ( n != 0) {
+			rem = m % n ;
+			n = m ;
+			n = rem; 
+		}
+		int gcd = m;
+		return gcd; 
+
+}
+
+ }
+
+	

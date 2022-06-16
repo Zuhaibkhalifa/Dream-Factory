@@ -1,0 +1,27 @@
+package kodenst;
+
+import java.util.Scanner;
+
+public class Array {
+	
+	private int arr[];
+	private Scanner scan = new Scanner(System.in);
+	
+	public Array(int n) {
+		arr = new int[n];
+	}
+	
+	public void insert() {
+		System.out.println("enter the array size from 0 to "+ (arr.length-1));
+		int pos = scan.nextInt();
+		System.out.println("Enter the element to insert");
+		int elem = scan.nextInt();
+				arr[pos]= elem;
+	}
+	public void delete() {
+		System.out.println("Enter the elemetn to be deleted");
+		int pos = scan.nextInt();
+		System.out.println("E")
+	}
+
+}

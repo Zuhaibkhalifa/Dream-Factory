@@ -1,0 +1,25 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.TreeSet;
+import java.util.*;
+
+public class news {
+	
+	
+	public static void main(String [] args)
+	{
+	Main t1 = new Main();
+	System.out.print("t1"+" ");
+	Main t2 = m1(t1);
+	System.out.print("t2"+" ");
+	Main t3 = new Main();
+	t2 = t3;
+	System.out.print("t3"+" ");
+	}
+	static Main m1(Main temp)
+	{
+	System.out.print("Static"+" ");
+	temp = new Main();
+	return temp;
+	}
+	}

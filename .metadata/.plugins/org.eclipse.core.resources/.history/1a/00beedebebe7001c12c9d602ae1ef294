@@ -1,0 +1,24 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.Scanner;
+
+public class assignment {
+public static void main(String[] args) {
+	Scanner scan = new Scanner (System.in);
+	System.out.println("Enter the String to reverse it ");
+	String str = scan.nextLine();
+	String strarr[] = str.split(" ");
+	String revsent = "";
+	for (int i = strarr.length-1 ; i >= 0 ; i--){
+		String revword = strarr[i];
+		revsent = revsent + revword + " ";
+		
+	}
+	System.out.println(revsent);
+	
+}
+}
+
+
+
+

@@ -1,0 +1,17 @@
+package com.kodnest.java.string.replacearray;
+
+public class news {
+
+	public class Assessment
+	{
+	public static void main(String args[])
+	{
+	int a = 100;
+	byte b= (byte)a;
+	System.out.println(b);
+	}
+	}
+		}
+
+
+

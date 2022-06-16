@@ -1,0 +1,12 @@
+package kodenst;
+
+public class Main {
+
+
+		public static void main(String[] args) {
+		String str="XYZ";
+		StringBuilder strb=new StringBuilder(str);
+		String ch="X";
+		StringBuffer strbu=new StringBuffer(ch);
+		}
+		}

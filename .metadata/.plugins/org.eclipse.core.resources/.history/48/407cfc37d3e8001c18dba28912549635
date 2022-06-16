@@ -1,0 +1,19 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.TreeSet;
+import java.util.*;
+
+public class news {
+
+
+	public static void main(String[] args)
+	{
+	TreeSet t = new TreeSet();
+	t.add("Learn");
+	t.add("Java");
+	System.out.print(t.isEmpty()+" ");
+	t.clear();
+	t.add(40);
+	System.out.println(t.isEmpty());
+	}
+	}

@@ -1,0 +1,17 @@
+package kodenst;
+
+public class Main {
+	
+	
+	public static void main(String[] args)
+	{
+	String[] arr =new String[4];
+	arr[1] = "Java";
+	arr[2] = "C";
+	arr[3] = "Python";
+	for (String Arrays: arr)
+	{
+	System.out.print(Arrays+ " ");
+	}
+	}
+	}

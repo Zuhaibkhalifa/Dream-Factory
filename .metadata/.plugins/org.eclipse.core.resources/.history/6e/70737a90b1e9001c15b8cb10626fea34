@@ -1,0 +1,16 @@
+package kodenst;
+
+public class Main {
+
+		static String s = "non-static";
+		static String s1 = "static";
+		static {
+		System.out.println(s1);
+		}
+		{
+		System.out.println(s);
+		}
+		public static void main(String[] args) {
+
+		}
+		}

@@ -1,0 +1,15 @@
+package com.kodnest.java.string.replacearray;
+
+import java.util.Scanner;
+
+public class assignment {
+	        public static void main(String[] args)
+	        {
+	               int[] a={25,35,45,55,65,75,85};
+	               a[5]=a[5];
+	               a[5]=60;
+	               System.out.println(a);
+	        }
+	}
+
+
